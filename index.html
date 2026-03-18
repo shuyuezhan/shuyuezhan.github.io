@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shuyue Zhan — Biopharma Scientist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow-orb glow-1"></div>
+  <div class="glow-orb glow-2"></div>
+
+  <div class="container">
+    <nav id="nav"></nav>
+
+    <!-- Hero -->
+    <div class="hero" id="about">
+      <div class="hero-top">
+        <img src="photo.jpg" alt="Ruijie Jiang" class="hero-photo">
+        <div>
+          <div class="hero-badge"><span class="dot"></span><span id="hero-badge"></span></div>
+          <h1>Hi, I'm <span class="gradient" id="hero-name"></span></h1>
+          <p class="hero-desc" id="hero-desc"></p>
+          <div class="hero-links" id="hero-links"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- News (preview) -->
+    <section id="news">
+      <div class="section-title">News</div>
+      <ul class="news-list" id="news-list"></ul>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="section-title">Experience</div>
+      <div id="experience-list"></div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <div class="section-title">Education</div>
+      <div id="education-list"></div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="section-title">Technical Skills</div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </section>
+
+    <!-- Publications (preview) -->
+    <section id="publications">
+      <div class="section-title">Selected Publications</div>
+      <div id="pub-list"></div>
+    </section>
+
+    <!-- Blog (preview) -->
+    <section id="blog">
+      <div class="section-title">Academic Blog</div>
+      <div class="blog-grid" id="blog-grid"></div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="section-title">Get in Touch</div>
+      <div class="contact-grid" id="contact-grid"></div>
+    </section>
+
+    <footer id="footer"></footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="render.js"></script>
+  <script>
+    // Nav — links to dedicated pages
+    renderNav('nav', '', 'about');
+    initTheme();
+
+    // Hero
+    $('hero-badge').textContent = SITE.badge;
+    $('hero-name').textContent = SITE.name;
+    $('hero-desc').textContent = SITE.heroDesc;
+    $('hero-links').innerHTML = `
+      <a href="mailto:${SITE.email}" class="btn-primary">${ICONS.mail} Get in Touch</a>
+      <a href="${SITE.github}" class="btn-secondary" target="_blank">${ICONS.github} GitHub</a>
+      <a href="${SITE.linkedin}" class="btn-secondary" target="_blank">${ICONS.linkedin} LinkedIn</a>
+      <a href="${SITE.scholar}" class="btn-secondary" target="_blank">${ICONS.scholar} Scholar</a>
+    `;
+
+    // Sections
+    renderNews('news-list', false);
+    renderCards(SITE.experience, 'experience-list');
+    renderCards(SITE.education, 'education-list');
+    renderSkills('skills-grid');
+    renderPublications('pub-list');
+    renderBlog('blog-grid', '');
+    renderContact('contact-grid');
+    renderFooter('footer');
+  </script>
+</body>
+</html>

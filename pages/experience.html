@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience — Shuyue Zhan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="glow-orb glow-1"></div>
+  <div class="glow-orb glow-2"></div>
+  <div class="container">
+    <nav id="nav"></nav>
+    <section>
+      <div class="section-title">Experience</div>
+      <div id="experience-list"></div>
+    </section>
+    <section>
+      <div class="section-title">Education</div>
+      <div id="education-list"></div>
+    </section>
+    <section>
+      <div class="section-title">Technical Skills</div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </section>
+    <footer id="footer"></footer>
+  </div>
+  <script src="../data.js"></script>
+  <script src="../render.js"></script>
+  <script>
+    renderNav('nav', '../', 'experience');
+    initTheme();
+    renderCards(SITE.experience, 'experience-list');
+    renderCards(SITE.education, 'education-list');
+    renderSkills('skills-grid');
+    renderFooter('footer');
+  </script>
+</body>
+</html>
