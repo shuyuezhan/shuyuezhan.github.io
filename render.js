@@ -198,5 +198,5 @@ function renderContact(containerId) {
 
 function renderFooter(containerId) {
   const footer = $(containerId);
-  if (footer) footer.innerHTML = `&copy; ${new Date().getFullYear()} ${SITE.name}. Built with care.`;
+  if (footer) footer.innerHTML = `&copy; ${new Date().getFullYear()} ${SITE.name}. Built with love.`;
 }
