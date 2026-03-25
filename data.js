@@ -16,7 +16,7 @@ const SITE = {
     "Co-host of the VITA1001 Modern Pharma podcast.",
 
   // ---- 联系方式 ----
-  email: "example@gmail.com",             // TODO: 换成真实邮箱
+  email: "szmelody9@gmail.com",
   github: "https://github.com/Sue0129",
   linkedin: "https://www.linkedin.com/in/shuyue-zhan-phd-vita1001/",
   scholar: "https://scholar.google.com/citations?user=-jQc_koAAAAJ&hl=en",
@@ -25,11 +25,19 @@ const SITE = {
   experience: [
     {
       org: "Thermo Fisher Scientific",
-      role: "Scientist",                  // TODO: 确认具体职位
+      role: "Senior Scientist",
       date: "2023 - Oct 2025",
       tag: "Industry",
       tagColor: "blue",
       desc: "Developed complex cell-based bioassays. Managed cross-functional GMP projects. Bioassay development, validation, and transfer for biopharmaceutical products.",
+    },
+    {
+      org: "PPD",
+      role: "Graduate Intern",
+      date: "May 2022 - Aug 2022",
+      tag: "Intern",
+      tagColor: "orange",
+      desc: "GMP training and stability/release sample testing. Madison, WI.",
     },
     {
       org: "University of Georgia",
@@ -37,9 +45,8 @@ const SITE = {
       date: "Aug 2018 - 2023",
       tag: "Ph.D.",
       tagColor: "purple",
-      desc: "Research on nanoparticle-based cancer therapeutics and immunotherapy. Published in ACS Nano Letters and other top journals. Developed sodium chloride nanoparticles for cancer treatment and radiodynamic therapy approaches.",
+      desc: "Research on nanoparticle-based cancer therapeutics and immunotherapy. Published in ACS Nano Letters, Nature Communications, ACS Nano and other top journals. Developed sodium chloride nanoparticles for cancer treatment and radiodynamic therapy approaches.",
     },
-    // TODO: 添加更多经历（实习等）
   ],
 
   // ---- 教育背景 ----
@@ -54,16 +61,16 @@ const SITE = {
     },
     {
       org: "University of Georgia",
-      degree: "Ph.D.",                    // TODO: 确认具体专业
+      degree: "Ph.D. in Chemistry",
       date: "Aug 2018 - 2023 · Athens, GA",
       tag: "Ph.D.",
       tagColor: "green",
       desc: "Mary Laraine Young Hines Graduate Fellowship in Cancer Research · Outstanding Graduate Student of the Year (ACS Northeast Georgia) · Summer Research Grant · Research & Teaching Assistance Scholarship",
     },
     {
-      org: "",                            // TODO: 填写本科学校
-      degree: "B.S.",                     // TODO: 填写本科专业
-      date: "2014 - 2018",
+      org: "Nanjing Normal University (南京师范大学)",
+      degree: "B.S. in Chemistry",
+      date: "2014 - 2018 · Nanjing, China",
       tag: "B.S.",
       tagColor: "blue",
       desc: "",
@@ -196,7 +203,7 @@ const SITE = {
       date: "2024-01-01",
       tags: ["Podcast", "Pharma", "Career"],
       summary: "Co-hosting the VITA1001 Modern Pharma podcast with Fangyuan D., covering pharmaceutical industry roles, career development, and insights from biopharma professionals. 12+ episodes and counting.",
-      link: "",  // TODO: 添加播客链接
+      link: "https://vita1001.com",
     },
     {
       title: "Guest Editor: Nanoparticles in Cancer Immunotherapy",
