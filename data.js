@@ -195,7 +195,6 @@ const SITE = {
   // ---- 新闻动态 ----
   news: [
     { date: "2026-03", text: "Completed Introduction to Marketing and Introduction to Financial Accounting certifications from the University of Pennsylvania." },
-    { date: "2026-03", text: "VITA1001 podcast episode on bioinformatics with Tommy Tang and Dr. Han." },
     { date: "2025-12", text: "Completed ORAQ Regulatory Affairs Training Program from Duke University School of Medicine." },
     { date: "2025-10", text: "Launched VITA1001 Modern Pharma podcast — exploring careers in drug development (CMC, biomedical consulting, process chemistry, and more)." },
     { date: "2025-10", text: "Transitioned from Thermo Fisher Scientific — relocated to California, exploring new opportunities in biopharma." },
