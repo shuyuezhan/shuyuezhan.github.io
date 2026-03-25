@@ -53,8 +53,16 @@ const SITE = {
   education: [
     {
       org: "University of Pennsylvania",
-      degree: "Marketing Certificate",
-      date: "2026",
+      degree: "Introduction to Marketing · Introduction to Financial Accounting",
+      date: "Mar 2026",
+      tag: "Cert",
+      tagColor: "orange",
+      desc: "",
+    },
+    {
+      org: "Duke University School of Medicine",
+      degree: "ORAQ Regulatory Affairs Training Program",
+      date: "Dec 2025",
       tag: "Cert",
       tagColor: "orange",
       desc: "",
@@ -186,14 +194,17 @@ const SITE = {
 
   // ---- 新闻动态 ----
   news: [
-    { date: "2026-03", text: "Completed Marketing certification from the University of Pennsylvania." },
-    { date: "2025-12", text: "Completed ORAQ Regulatory Affairs Training Program." },
-    { date: "2025-10", text: "Transitioned from Thermo Fisher Scientific — exploring new opportunities in biopharma." },
+    { date: "2026-03", text: "Completed Introduction to Marketing and Introduction to Financial Accounting certifications from the University of Pennsylvania." },
+    { date: "2026-03", text: "VITA1001 podcast episode on bioinformatics with Tommy Tang and Dr. Han." },
+    { date: "2025-12", text: "Completed ORAQ Regulatory Affairs Training Program from Duke University School of Medicine." },
+    { date: "2025-10", text: "Launched VITA1001 Modern Pharma podcast — exploring careers in drug development (CMC, biomedical consulting, process chemistry, and more)." },
+    { date: "2025-10", text: "Transitioned from Thermo Fisher Scientific — relocated to California, exploring new opportunities in biopharma." },
+    { date: "2025-09", text: 'PhD research on sodium chloride nanoparticles for cancer treatment published — celebrating with Dr. Jin Xie and collaborators!' },
     { date: "2023-04", text: "Awarded Outstanding Graduate Student of the Year by the Northeast Georgia Section of ACS!" },
-    { date: "2023", text: "Completed Ph.D. at the University of Georgia!" },
+    { date: "2023", text: "Completed Ph.D. in Chemistry at the University of Georgia!" },
     { date: "2022-10", text: "Awarded Mary Laraine Young Hines Graduate Fellowship in Cancer Research." },
+    { date: "2022-05", text: "Started graduate internship at PPD in Madison, WI." },
     { date: "2022-04", text: "Received Summer Research Grant." },
-    // 添加更多新闻
   ],
 
   // ---- 博客 / Podcast ----
