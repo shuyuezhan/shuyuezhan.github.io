@@ -17,7 +17,7 @@ const SITE = {
 
   // ---- 联系方式 ----
   email: "szmelody9@gmail.com",
-  github: "https://github.com/Sue0129",
+  github: "https://github.com/shuyuezhan",
   linkedin: "https://www.linkedin.com/in/shuyue-zhan-phd-vita1001/",
   scholar: "https://scholar.google.com/citations?user=-jQc_koAAAAJ&hl=en",
 
