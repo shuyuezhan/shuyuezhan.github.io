@@ -218,10 +218,10 @@ const SITE = {
     },
     {
       title: "Guest Editor: Nanoparticles in Cancer Immunotherapy",
-      date: "2024-06-01",
+      date: "2025-10-01",
       tags: ["Nanoparticles", "Cancer", "Editorial"],
       summary: "Serving as Guest Editor for MDPI Pharmaceutics Special Issue: 'Nanoparticles in Cancer Immunotherapy Application.' Curating cutting-edge research on nanomedicine approaches to enhance anti-tumor immunity.",
-      link: "",  // TODO: 添加链接
+      link: "https://www.mdpi.com/journal/pharmaceutics/special_issues/R88S8CO96N",
     },
   ],
 
