@@ -10,9 +10,10 @@ const SITE = {
   title: "Biopharma Scientist",
   badge: "Open to opportunities",
   heroDesc:
-    "Biopharma scientist with a Ph.D. from the University of Georgia (2023). " +
-    "My research focuses on nanoparticle-based cancer immunotherapy, radiodynamic therapy, and cell-based bioassay development. " +
-    "Experienced in GMP project management, bioassay validation, and translational research. " +
+    "Ph.D. from the University of Georgia, specialized in in vitro and in vivo bioassay development. " +
+    "Senior Scientist focusing on method development, validation, and regulatory documentation (GMP). " +
+    "Extensive experience in drug development and adept at cross-functional collaboration. " +
+    "ORAQ-trained in regulatory affairs with strong attention to detail, timeline management, and regulatory compliance in biologics and advanced therapies. " +
     "Co-host of the VITA1001 Modern Pharma podcast.",
 
   // ---- 联系方式 ----
