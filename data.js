@@ -37,7 +37,7 @@ const SITE = {
       date: "May 2022 - Aug 2022",
       tag: "Intern",
       tagColor: "orange",
-      desc: "GMP training and stability/release sample testing. Madison, WI.",
+      desc: "Completed rigorous GMP training, mastered ICH guidelines and international regulatory requirements. Performed potency testing for stability and release samples, ensuring full compliance with established quality control protocols and SOPs. Madison, WI.",
     },
     {
       org: "University of Georgia",
