@@ -114,9 +114,9 @@ const SITE = {
     },
     {
       title: "Salt Nanoparticles as Cancer Therapeutics",
-      authors: "<strong>S. Zhan</strong>, et al.",
-      venue: "Review",
-      link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-jQc_koAAAAJ",
+      authors: "<strong>S. Zhan</strong>",
+      venue: "Ph.D. Thesis, University of Georgia, 2023",
+      link: "https://openscholar.uga.edu/record/3298?v=pdf",
     },
     {
       title: "Radiation-Induced Ferroptosis via Liposomal Delivery of 7-Dehydrocholesterol",
